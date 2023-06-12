@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="cyworldguest.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cyworldguest</title>
+  <link rel="stylesheet" href="./cyworldguest.css">
+</head>
+<body>
+  <form>
+    <div class="searchBox">
+      <label>다음/네이버/구글: <input type="text" id="searchword" placeholder="검색하세요." /></label>
+      <button onClick="search()">이동</button>
+    </div>
+  </form>
+  <div class="mainbox">
+    <div class="smallbox">
+      <div class="partbox" >
+        <div class="guestbox">
+          <label for="username">작성자:</label>
+          <input type="text" id="username" />
+          <label for="content">내용:</label>
+          <input type="text" id="content" />
+          <button type="button" onclick="tableWrite()" style="margin-bottom: 20px">
+          작성
+        </button>
+        </div>
+        <table border="1px";>
+          <tr>
+            <td class="td1">순번</td>
+            <td class="td2">작성자</td>
+            <td class="td3">내용</td>
+            <td class="td4">일시</td>
+          </tr>
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="minibox1"><a href="cyworld.html">홈</a></div>
+      <div class="minibox2"><a href="cyworldprofile.html">프로필</a></div>
+      <div class="minibox3"><a href="cyworlddiary.html">다이어리</a></div>
+      <div class="minibox4"><a href="cyworldJB.html">주크박스</a></div>
+      <div class="minibox5"><a href="cyworldguest.html">방명록</a></div>
+      <div class="minibox6"><a href="cyworldsecret.html">비밀 게시판</a></div>
+    </div>
+  </div>
+</body>
+</html>
